@@ -8,6 +8,7 @@ body{
     width:100%;
     height: 100%;
     display: block;
+    background-color: #A6BFBE;
 }
 /*--------------------------Main nav bar-----------------*/
 .Main-nav{
@@ -15,11 +16,22 @@ body{
   width: 100%;
   background-color: #CFC3C2;
 }
+.Main-nav p{
+  font-size: 20px;
+}
 /*-------------------------- nav bar-----------------*/
 .Nav{
   background-color: #78180A;
   height: 200px;
   width: 100%;
+  margin-bottom:
+}
+.Nav h1{
+  font-family: 'Lobster', cursive;
+  color: #03F707;
+  width:150px;
+  -background-color: rgba(0,0,0.2);
+  margin-left: 210px;
 }
 .Nav ul{
   background-color: #0D122C;
@@ -27,4 +39,21 @@ body{
 }
 .Nav li{
   display: inline;
+}
+/*-------------------------- header-----------------*/
+.Header img{
+  height: 300px;
+  width: 600px;
+  margin-top: 30px;
+}
+#Image2{
+  height: 140px;
+}
+#Image3{
+  height: 150px;
+  margin-top: 10px;
+}
+#Image4{
+  height: 150px;
+  margin-top: 10px;
 }
