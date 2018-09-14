@@ -18,10 +18,12 @@ body{
 }
 .Main-nav p{
   font-size: 20px;
+
 }
 /*-------------------------- nav bar-----------------*/
 .Nav{
   background-color: #78180A;
+  -opacity: .8;
   height: 200px;
   width: 100%;
   margin-bottom:
@@ -34,12 +36,35 @@ body{
   margin-left: 210px;
 }
 .Nav ul{
-  background-color: #0D122C;
-  height: 70px;
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+    background-color: #0D122C;
 }
 .Nav li{
+  float: left;
+  width: 150px;
+  height: 40px;
   display: inline;
+  line-height: 40px;
+  text-align: center;
+  font-size: 16px;
 }
+.Nav a{
+  text-decoration: none;
+  color: #ffff;
+  display: block;
+}
+.Nav a:hover{
+  color: green;
+}
+.Nav ul li ul li{
+  display: none;
+}
+.Nav ul li:hover ul li{
+  display: block;
+}
+
 /*-------------------------- header-----------------*/
 .Header img{
   height: 300px;
@@ -56,4 +81,7 @@ body{
 #Image4{
   height: 150px;
   margin-top: 10px;
+}
+.header:hover img{
+  transform: scale(1.2);
 }
