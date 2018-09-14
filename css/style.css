@@ -1,0 +1,30 @@
+/*--------------------------root-----------------------*/
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+    overflow-x: hidden;
+    width:100%;
+    height: 100%;
+    display: block;
+}
+/*--------------------------Main nav bar-----------------*/
+.Main-nav{
+  height: 50px;
+  width: 100%;
+  background-color: #CFC3C2;
+}
+/*-------------------------- nav bar-----------------*/
+.Nav{
+  background-color: #78180A;
+  height: 200px;
+  width: 100%;
+}
+.Nav ul{
+  background-color: #0D122C;
+  height: 70px;
+}
+.Nav li{
+  display: inline;
+}
