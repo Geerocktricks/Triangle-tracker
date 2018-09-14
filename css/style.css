@@ -23,7 +23,6 @@ body{
 /*-------------------------- nav bar-----------------*/
 .Nav{
   background-color: #78180A;
-  -opacity: .8;
   height: 200px;
   width: 100%;
   margin-bottom:
@@ -39,7 +38,9 @@ body{
   margin: 0px;
   padding: 0px;
   list-style: none;
-    background-color: #0D122C;
+  background-color: #0D122C;
+  opacity: .8;
+  margin: auto;
 }
 .Nav li{
   float: left;
@@ -54,9 +55,11 @@ body{
   text-decoration: none;
   color: #ffff;
   display: block;
+  background-color: #0D122C;
 }
 .Nav a:hover{
-  color: green;
+  background-color: green;
+  color: #e3e3e3;
 }
 .Nav ul li ul li{
   display: none;
