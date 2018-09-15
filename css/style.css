@@ -90,7 +90,7 @@ body{
 }
 /*-------------------------- aside-----------------*/
 aside{
-  position: absolute;
+  position: fixed;
 
 }
 aside ul{
@@ -148,4 +148,16 @@ aside li:nth-child(4) a{
 }
 aside li:nth-child(5) a{
   background: #c32aa3;
+}
+/*---------------------------footer-------------------------*/
+footer{
+  background-color: #78180A;
+  height: 200px;
+}
+footer h1{
+  transform: translate(40%,50%);
+  font-size: 40px;
+}
+footer p{
+  transform: translate(70%,300%);
 }
