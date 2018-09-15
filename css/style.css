@@ -148,6 +148,12 @@ aside li:nth-child(4) a{
 }
 aside li:nth-child(5) a{
   background: #c32aa3;
+}/*--------------------------Contacts------------------------*/
+.Contacts{
+  background-color: #0D122C;
+}
+.contacts p {
+  margin-bottom: 0px;
 }
 /*---------------------------footer-------------------------*/
 footer{
