@@ -158,6 +158,10 @@ aside li:nth-child(5) a{
 .Content{
   background-color: #ffff;
 }
+.Contents{
+    background-color: #ffff;
+    height: 300px;
+}
 /*--------------------------Contacts------------------------*/
 .Contacts{
   background-color: #0D122C;
