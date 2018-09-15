@@ -160,7 +160,23 @@ aside li:nth-child(5) a{
 }
 .Contents{
     background-color: #ffff;
-    height: 300px;
+    height: 400px;
+}
+.Contents h1{
+  text-align: center;
+  font-size: 30px;
+}
+.Contents form{
+  text-align: center;
+}
+.Contents input{
+  margin-left: 20px;
+  display: block;
+  margin: auto;
+  padding: 10px;
+}
+.Contents p{
+
 }
 /*--------------------------Contacts------------------------*/
 .Contacts{
