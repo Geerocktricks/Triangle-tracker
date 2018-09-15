@@ -15,6 +15,7 @@ body{
   height: 50px;
   width: 100%;
   background-color: #CFC3C2;
+  -position: fixed;
 }
 .Main-nav p{
   font-size: 20px;
@@ -204,9 +205,9 @@ footer{
   margin-top: 40px;
 }
 footer h1{
-  transform: translate(40%,50%);
+  transform: translate(-10%,120%);
   font-size: 40px;
 }
 footer p{
-  transform: translate(70%,300%);
+  transform: translate(10%,900%);
 }
