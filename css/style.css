@@ -148,17 +148,35 @@ aside li:nth-child(4) a{
 }
 aside li:nth-child(5) a{
   background: #c32aa3;
-}/*--------------------------Contacts------------------------*/
+}
+/*--------------------------Content------------------------*/
+.Content{
+  background-color: #ffff;
+}
+/*--------------------------Contacts------------------------*/
 .Contacts{
   background-color: #0D122C;
+  height: 450px;
 }
-.contacts p {
-  margin-bottom: 0px;
+.Contacts h1{
+  float: right;
+  color: #ffff;
+  border-bottom: 1px dashed #ffff;
+  margin-top: -450px;
+  transform: translate(-30%,50%);
+}
+.Contacts p span{
+  float:right;
+  color: #ffff;
+  border-left: 1px solid #ffff;
+  padding:20px;
+  transform: translate(250%,-120%);
 }
 /*---------------------------footer-------------------------*/
 footer{
   background-color: #78180A;
-  height: 200px;
+  height: 350px;
+  margin-top: 40px;
 }
 footer h1{
   transform: translate(40%,50%);
