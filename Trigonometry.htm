@@ -11,6 +11,32 @@
     <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
     <title>Triangle-tracker</title>
+    <script type="text/javascript">
+    function triangleTracker(){
+      var sideA = parseInt(document.getElementById("sideA").value);
+      var sideB = parseInt(document.getElementById("sideA").value);
+      var sideA = parseInt(document.getElementById("sideA").value);
+
+      if(sideA==sideC && sideA==sideB) {
+        alert("Equilateral triangle!");
+      }
+      else if (sideA==sideC!==sideB) {
+        alert("Isosceles triangle!");
+      }
+      else if (sideA==sideB!==sideC) {
+        alert("Isosceles triangle!");
+      }
+      else if (sideC==sideB!==sideA) {
+        alert("Isosceles triangle!");
+      }
+      else if (sideA!==sideC!==sideB) {
+        alert("Scalene triangle!")
+      }
+      else {
+        alert("Not a triangle!!!")
+      }
+    }
+    </script>
   </head>
   <body>
     <div class="wrapper">
@@ -72,7 +98,26 @@
           </li>
         </ul>
       </aside>
-
+      <div class="Header2 container_12">
+        <img src="img/Header!.jpg" alt="My header image" class="container_12" id="Image1">
+      </div>
+      <div class="Content container_12">
+        <form class="Triangle-tracker" action="index.html" method="post">
+          <p>
+            Enter the dimensions of first side
+            <input type="text" name="" value="" id="sideA">
+          </p>
+          <p>
+            Enter the dimensions of second side
+            <input type="text" name="" value="" id="sideB">
+          </p>
+          <p>
+            Enter the dimensions of third side
+            <input type="text" name="" value="" id="sideC">
+          </p>
+          <input type="button" name="" value="Done!" onclick="triangleTracker">
+        </form>
+      </div>
     </div>
 
   </body>
